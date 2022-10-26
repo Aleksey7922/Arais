@@ -1,14 +1,14 @@
 ﻿#include<iostream>
 using namespace std;
 
-#define ARR_1
-//#define ARR_2
+
+
 
 void main()
 {
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "rus");
 
-#ifdef ARR_1
+#
 
 	const int  SIZE = 5;
 	int arr[SIZE] = { 3,5,8 };
@@ -31,7 +31,7 @@ void main()
 
 	//Вывод массива на экран в обратном порядке:
 
-	for (int i = ; i < SIZE; i++)
+	for (int i = 0; i < SIZE; i++)
 	{
 		cout << arr[i] << " \t";
 
@@ -84,5 +84,7 @@ void main()
 	}
 	cout << "Ìèíèìàëüíîå çíà÷åíèå â ìàññèâå: " << min << endl;
 	cout << "Ìàêñèìàëüíîå çíà÷åíèå â ìàññèâå: " << max << endl;
+
+
 
 }
